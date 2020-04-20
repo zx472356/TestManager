@@ -1,0 +1,13 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    data-username: cqna_rdm
+    data-password: cqna_rdm
+    url: jdbc:oracle:thin:@192.168.24.251:3306:GBK16
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+mybatis:
+  type-aliases-package: com.renliziyuan.rlzy.entity
